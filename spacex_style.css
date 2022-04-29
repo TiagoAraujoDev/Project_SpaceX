@@ -1,0 +1,89 @@
+body {
+    width: 70%;
+    margin: 0px auto 0px auto;
+    background-color: #fff;
+}
+
+div.nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+div.nav_bar li a  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+div.nav_bar li a:hover {
+    background-color: #111111;
+}
+
+div.nav_bar li {
+    float: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    padding: 6px;
+}
+
+tr:nth-last-of-type(even) {
+    background-color: #333333;
+}
+
+#table_title {
+    text-align: center;
+}
+
+#form [type], select {
+    width: 100%;
+    border-radius: 4px;
+    margin: 10px 0px;
+    padding: 12px;
+    border: none;
+    box-sizing: border-box;
+}
+
+fieldset {
+    width: 100%;
+}
+
+#form [type="submit"] {
+    width: 100%;
+}
+#btn input {
+    background-color: #333333;
+    color: #ddd;
+    padding: 12px;
+    border: none;
+    width: 100%;
+}
+
+#btn:hover input {
+    background-color: #111111;
+}
+
+fieldset {
+    background-color: #e2e2e2;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box;
+}
+
+/*p{
+    font-family: 'Zilla Slab', sans-serif;
+}
+h1{
+    font-family: 'Alfa Slab One', sans-serif;
+}*/
